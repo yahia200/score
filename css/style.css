@@ -104,3 +104,15 @@ html {
     color:var(--hover-color);
     transition: color 0.17s;
 }
+
+
+footer{
+    text-align: right;
+    margin: 0;
+    padding: 2px 0;
+    width: 100%;
+    background-color: var(--background-color-3);
+    position:fixed;
+    bottom: 0px;
+
+}
