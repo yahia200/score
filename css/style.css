@@ -49,12 +49,13 @@ html {
     padding: 20px 0px;
     margin: 0;
     font-size: 35px;
+    
 
 }
 
 .top-bar a:hover{
     color:var(--hover-color);
-    transition: color 0.17s;
+    transition: color 0.15s;
 }
 
 
@@ -102,9 +103,39 @@ html {
 
 .parts-item:hover{
     color:var(--hover-color);
-    transition: color 0.17s;
+    transition: color 0.15s;
 }
 
+.content-container {
+    margin-left: 0;
+    display: grid;
+    row-gap: var(--gap);
+    column-gap: var(--gap);
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--background-color-1);
+    text-align: center;
+}
+
+.content{
+    margin: 0;
+    padding: 300px 0;
+    background-color: var(--background-color-2);
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 60px;
+    transition: ease-in-out;
+
+    @media only screen and (max-width: 980px) {
+        font-size: 45px;
+    }
+
+
+}
+
+.content:hover{
+    color:var(--hover-color);
+    transition: color 0.15s;
+}
 
 footer{
     margin: 0;
@@ -120,3 +151,4 @@ footer{
     }
 
 }
+
