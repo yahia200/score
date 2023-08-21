@@ -1,8 +1,9 @@
 :root{
     --gap: 20px;
-    --text-color: #000;
-    --background-color-1: #1C82AD;
-    --background-color-2: #13005A;
+    --text-color: #FFF6F4;   
+     --background-color-1: #FFA41B;
+    --background-color-3: #F86F03;
+    --background-color-2: #525FE1;
     --hover-color: #c69649d3;
 }
 
@@ -33,7 +34,7 @@ html {
     display: grid;
     column-gap: 0;
     grid-template-columns:1fr 1fr 1fr 1fr;
-    background-color: #00337C ;
+    background-color: var(--background-color-3) ;
     font-size: 22px;
     text-align: center;
 }
