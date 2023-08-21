@@ -54,6 +54,7 @@ html {
 
 .top-bar a:hover{
     color:var(--hover-color);
+    transition: color 0.17s;
 }
 
 
@@ -96,8 +97,10 @@ html {
     text-decoration: none;
     color: var(--text-color);
     font-size: 60px;
+    transition: ease-in-out;
 }
 
 .parts-item:hover{
     color:var(--hover-color);
+    transition: color 0.17s;
 }
