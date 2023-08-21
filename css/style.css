@@ -83,7 +83,7 @@ html {
 .parts-6{
     display: grid;
     row-gap: var(--gap);
-    margin: var(--gap) 0;
+    margin-top: var(--gap);
     grid-template-rows: 1fr 1fr 1fr;
     background-color: var(--background-color-1);
     text-align: center;
