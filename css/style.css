@@ -75,20 +75,31 @@ html {
 .parts{
     display: grid;
     row-gap: var(--gap);
+    margin: 0 auto;
     margin-top: var(--gap);
+    padding-bottom: 40px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: var(--background-color-1);
     text-align: center;
+    width: 99%;
+
+    
 }
 
 
 .parts-6{
     display: grid;
+    margin: 0 auto;
     row-gap: var(--gap);
     margin-top: var(--gap);
+    padding-bottom: 40px;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: var(--background-color-1);
     text-align: center;
+    border-radius: 334px;
+    max-width: 99%;
+
+
 }
 
 .parts-item{
@@ -99,6 +110,7 @@ html {
     color: var(--text-color);
     font-size: 60px;
     transition: ease-in-out;
+    border-radius: 334px;
 }
 
 .parts-item:hover{
@@ -107,13 +119,15 @@ html {
 }
 
 .content-container {
-    margin-left: 0;
+    margin: 20px auto;
+    padding-bottom: 20px;
     display: grid;
     row-gap: var(--gap);
     column-gap: var(--gap);
     grid-template-columns: 1fr 1fr;
     background-color: var(--background-color-1);
     text-align: center;
+    max-width: 99%;
 }
 
 .content{
@@ -122,11 +136,14 @@ html {
     background-color: var(--background-color-2);
     text-decoration: none;
     color: var(--text-color);
-    font-size: 60px;
+    font-size: 50px;
     transition: ease-in-out;
+    border-radius: 334px;
 
     @media only screen and (max-width: 980px) {
-        font-size: 45px;
+        font-size: 35px;
+        height: 150px;
+
     }
 
 
